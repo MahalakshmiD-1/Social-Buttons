@@ -1,0 +1,95 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.background-container {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 700px;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sub-container {
+    width: 50%;
+  }
+}
+
+.heading {
+  font-family: "Bree Serif";
+  color: #ffffff;
+  font-size: 38px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 62px;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-container {
+    flex-direction: row;
+  }
+}
+
+.button {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+.btn1 {
+  color: #ffffff;
+  background-color: #eab308;
+}
+.btn2 {
+  color: #323f4b;
+  background-color: #ffffff;
+}
+.btn3 {
+  color: #ffffff;
+  background-color: #1d4ed8;
+}
